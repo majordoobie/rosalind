@@ -1,3 +1,4 @@
+site:
 http://rosalind.info/problems/cons/
 
 n = 0
@@ -23,16 +24,16 @@ for row in dna_list:
    
    
    
-#counting the amount of shit in each row
+####counting the amount of shit in each row
 x = len(dna_list)
 y = len(dna_list[0])
 
 
-#extracting the column 
+####extracting the column 
 [n[0] for n in dna_list]
 
 
-#counting them
+#####counting them
 c = Counter([n[0] for n in dna_list])
 
 
