@@ -1,0 +1,42 @@
+http://rosalind.info/problems/cons/
+
+n = 0
+j = 1
+k = 8
+dna_list = []
+
+while j < k:
+    n = n + 1
+    j = j + 1
+    with open('raw_matrix.txt', "r") as fp:
+        for line in fp:
+            if str(n) in line:
+                break
+        for line in fp:
+            if str(j) in line:
+                break
+            line=line.strip('\n')
+            dna_list.append(line)
+
+for row in dna_list:
+    print(' '.join(row)) 
+   
+   
+   
+#counting the amount of shit in each row
+x = len(dna_list)
+y = len(dna_list[0])
+
+
+#extracting the column 
+[n[0] for n in dna_list]
+
+
+#counting them
+c = Counter([n[0] for n in dna_list])
+
+
+
+
+
+        
