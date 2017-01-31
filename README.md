@@ -1,2 +1,4 @@
 # rosalind_shit
-Code for rosalind
+rosalind projects..
+
+http://rosalind.info/problems/locations/
