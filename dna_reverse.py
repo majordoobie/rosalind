@@ -1,6 +1,6 @@
 import os
 os.system('cls')
-
+#aint this a neet comment it is
 def main():
 	file = open('C:/Users/DoobieJunior/Documents/Programing/Projects/thirdcode.txt')
 	dna = file.read()        							#Use this to allow string manipulation over readlines()
